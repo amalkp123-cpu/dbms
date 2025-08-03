@@ -1,0 +1,62 @@
+.navbar-list{
+    
+    gap: 3rem;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+   padding-right: 50px;
+    
+
+}
+.navbar-list li a {
+    color:  rgb(20, 20, 65);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+
+  }
+
+img{
+  width:250px;
+  height: 250px;
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    padding: 10px;
+   
+    
+}
+.booking {
+  padding: 15px 20px 15px 20px ;
+  background-color: rgb(20, 20, 65);
+  color: white;
+  border-radius: 25px;
+  border: 1px solid white;
+  text-decoration: none;
+  
+}
+.booking:hover{
+  background-color: white;
+  color:rgb(20, 20, 65);
+  border: 1px solid rgb(20, 20, 65);
+}
+.btn{
+  padding-right: 100px;
+}
+.booking a{
+  text-decoration: none;
+  color: white;
+}
+.booking a:hover{
+ 
+  color:rgb(20, 20, 65);
+}
+@media screen {
+  
+}
