@@ -1,0 +1,85 @@
+.contact{
+   background-color: rgb(20, 20, 65);
+   color: rgb(235, 238, 240);
+   display: flex;
+}
+.s1{
+   width: 50%;
+}
+.s1 h1{
+   font-size: 3rem;
+   padding-top: 50px;
+   padding-left: 110px;
+   
+}
+.details p{
+   text-align: justify;      
+    line-height: 1.6;          
+    max-width: 600px;         
+    margin: 20px auto;         
+    font-size: 20px;           
+   
+}
+.fb img{
+   width:30px;
+   height: 30px;
+}
+.fb {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0.7rem;
+  padding: 0;
+}
+.s2{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+}
+.call img{
+   width:30px;
+   height: 30px;
+}
+.call{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0.7rem;
+   padding-left: 30px;
+}
+.mail img{
+   width:30px;
+   height: 30px;
+}
+.mail{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0.7rem;
+   padding-left: 100px;
+}
+.small{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   cursor: pointer;
+}
+.insta img{
+   width:30px;
+   height: 30px;
+}
+.insta{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0.7rem;
+   padding-left: 10px;
+}
+.copy{
+   background-color: rgb(20, 20, 65);
+   color: rgb(235, 238, 240);
+   display: flex;
+   justify-content: center;
+}
