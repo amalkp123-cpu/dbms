@@ -1,7 +1,10 @@
 import React from 'react'
 import './Contact.css'
+<<<<<<< HEAD
 import fb from 'src/assets/fb.png'
 import call from 'src/assets/call.png'
+=======
+>>>>>>> ca0f91a474958a5dfb3b1b9fcf70d02b7ba76dff
 
 const Contact = () => {
   return (
@@ -23,11 +26,19 @@ const Contact = () => {
      <div className="s2">
      <div className="small">
        <div className="fb">
+<<<<<<< HEAD
         <img src={fb} alt="#" />
         <h3>curezone</h3>
       </div>
       <div className="call">
       <img src={call} alt="#" />
+=======
+        <img src="src/assets/fb.png" alt="#" />
+        <h3>curezone</h3>
+      </div>
+      <div className="call">
+      <img src="src/assets/call.png" alt="#" />
+>>>>>>> ca0f91a474958a5dfb3b1b9fcf70d02b7ba76dff
         <h3>0490-123456</h3>
       </div>
       <div className="mail">

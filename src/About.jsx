@@ -1,6 +1,9 @@
 import React from 'react'
 import './About.css'
+<<<<<<< HEAD
 import video from "src/assets/video.mp4"
+=======
+>>>>>>> ca0f91a474958a5dfb3b1b9fcf70d02b7ba76dff
 
 
 const About = () => {
@@ -11,7 +14,11 @@ const About = () => {
       </div>
       <div className="video">
         <video  className='play' controls autoPlay loop>
+<<<<<<< HEAD
         <source src={video} type="video/mp4"></source>
+=======
+        <source src="src/assets/video.mp4" type="video/mp4"></source>
+>>>>>>> ca0f91a474958a5dfb3b1b9fcf70d02b7ba76dff
           </video>
          
       </div>
